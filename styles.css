@@ -3,7 +3,7 @@ body {
     background: white;
 }
 header {
-    background-color: blue;
+    background-color: rgba(8, 8, 92, 0.925);
     color: white;;
     display: flex;
     justify-content: space-between;
@@ -22,7 +22,7 @@ nav a {
 }
 .btn-admin{
     background: white;
-    color: blue;
+    color: rgb(8, 8, 92, 0.925);
     padding: 8px 15px;
     border-radius: 5px;
     margin-left: 20px;
@@ -58,12 +58,10 @@ input,textarea {
     border-radius: 5px;
     font-size: 16px;
 }
-.init {
-    width: calc(50% -  10px);
-}
+
 button {
     width: 100%;
-    background-color:blue;
+    background-color:rgb(8, 8, 92, 0.925);
     color: white;
     padding: 15px;
     border: none;
@@ -72,7 +70,7 @@ button {
     cursor: pointer;
 }
 button:hover {
-    background-color: blue;
+    background-color: rgb(8, 8, 92, 0.925);
 }
 .image-section {
     width: 45%;
@@ -82,12 +80,15 @@ button:hover {
     border-radius: 8px;
 }
 footer {
-    background-color: blue;
+    background-color: rgb(8, 8, 92, 0.925);
     color: white;
-    display: flex;
     justify-content: space-between;
     padding: 30px 50px;
     margin-top: 50px;
+}
+.footer-cont{
+    display: flex;
+    justify-content: space-between;
 }
 footer .social a{
     margin-right: 15px;
